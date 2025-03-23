@@ -1,6 +1,5 @@
 // script.js
 const noBtn = document.querySelector(".no-btn");
-
 noBtn.addEventListener("mouseover", () => {
     const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
     const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
